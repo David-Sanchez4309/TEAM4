@@ -15,6 +15,6 @@ public class Asignatura {
 
     private String name;
     private String desc;
-    private String Ova_id;
+    private String ova_id;
 
 }

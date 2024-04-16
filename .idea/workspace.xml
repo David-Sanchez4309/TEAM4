@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fc4d42d-a70f-4101-8123-58eeabab6bbc" name="Changes" comment="" />
+    <list default="true" id="2fc4d42d-a70f-4101-8123-58eeabab6bbc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +36,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "43efc68b9bfeb98f2877e7ea70aebc0b"
   }
 }]]></component>
   <component name="RunManager">
@@ -54,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713215807512</updated>
-      <workItem from="1713215810910" duration="4695000" />
+      <workItem from="1713215810910" duration="5368000" />
+      <workItem from="1713280599063" duration="1930000" />
     </task>
     <servers />
   </component>

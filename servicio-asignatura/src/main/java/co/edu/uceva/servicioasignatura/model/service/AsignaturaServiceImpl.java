@@ -9,8 +9,14 @@ import java.util.List;
 
 @Service
 public class AsignaturaServiceImpl implements IAsignaturaService{
-   @Autowired
+
     IAsignaturaDao asignaturaDao;
+   @Autowired
+   public AsignaturaServiceImpl(IAsignaturaDao asignaturaDao) {
+       this.asignaturaDao = asignaturaDao;
+   }
+
+
 
     @Override
     public Asignatura delete(Asignatura asignatura) {
@@ -18,9 +24,7 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
     }
 
     @Override
-    public List<Asignatura> findAll() {
-        return null;
-    }
+    public List<Asignatura> findAll() {return (List<Asignatura>) asignaturaDao.findAll(); }
 
     @Override
     public Asignatura save(Asignatura asignatura) {

@@ -24,7 +24,6 @@ public class AsignaturaRestController {
         return this.asignaturaService.findAll();
     }
 
-    //TODO funcion buscar,actualizar, eliminar
 
     
     //funcion actualizar hecha por camilo mena

@@ -9,18 +9,22 @@ import java.util.List;
 
 @Service
 public class AsignaturaServiceImpl implements IAsignaturaService{
-   @Autowired
+
     IAsignaturaDao asignaturaDao;
+   @Autowired
+   public AsignaturaServiceImpl(IAsignaturaDao asignaturaDao) {
+       this.asignaturaDao = asignaturaDao;
+   }
+
+
 
     @Override
-    public void delete(Asignatura asignatura) {
-
+    public Asignatura delete(Asignatura asignatura) {
+        return asignatura;
     }
 
     @Override
-    public List<Asignatura> findAll() {
-        return null;
-    }
+    public List<Asignatura> findAll() {return (List<Asignatura>) asignaturaDao.findAll(); }
 
     @Override
     public Asignatura save(Asignatura asignatura) {
@@ -34,6 +38,6 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
 
     @Override
     public Asignatura update(Asignatura asignatura) {
-        return null;
+        return asignaturaDao.save(asignatura);
     }
 }

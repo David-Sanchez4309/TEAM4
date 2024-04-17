@@ -34,6 +34,6 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
 
     @Override
     public Asignatura update(Asignatura asignatura) {
-        return null;
+        return asignaturaDao.save(asignatura);
     }
 }

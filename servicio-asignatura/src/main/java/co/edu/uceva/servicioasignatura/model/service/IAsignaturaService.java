@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface IAsignaturaService {
 
-    void delete(Asignatura asignatura);
+    Asignatura delete(Asignatura asignatura);
     List<Asignatura> findAll();
     Asignatura save(Asignatura asignatura);
     Asignatura findById(Long id);

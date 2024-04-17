@@ -13,7 +13,7 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
     IAsignaturaDao asignaturaDao;
 
     @Override
-    public void delete(Asignatura asignatura) {
+    public Asignatura delete(Asignatura asignatura) {
         return asignatura;
     }
 

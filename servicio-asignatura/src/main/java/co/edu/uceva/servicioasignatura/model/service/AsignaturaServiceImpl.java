@@ -14,7 +14,7 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
 
     @Override
     public void delete(Asignatura asignatura) {
-
+        return asignatura;
     }
 
     @Override

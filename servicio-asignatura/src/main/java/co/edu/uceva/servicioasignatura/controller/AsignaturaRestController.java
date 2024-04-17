@@ -33,5 +33,13 @@ public class AsignaturaRestController {
         return this.asignaturaService.save(asignatura);
     }
 
+    // Funcion borrar
+
+    @DeleteMapping("/asignaturasBorrar")
+    public Asignatura borrarAsignatura(@RequestBody Asignatura asignatura) {
+        return this.asignaturaService.delete(asignatura);
+    }
+
+
 
 }

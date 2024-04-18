@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/asignatura-service")
+@RequestMapping("/api/asignatura-service")
 public class AsignaturaRestController {
     private IAsignaturaService asignaturaService;
 
@@ -19,7 +19,7 @@ public class AsignaturaRestController {
 
 
     //funcion listar que usa AsignaturaService
-    @GetMapping("/asignaturas")
+    @GetMapping("/asignatura")
     public List<Asignatura> listar(){
         return this.asignaturaService.findAll();
     }

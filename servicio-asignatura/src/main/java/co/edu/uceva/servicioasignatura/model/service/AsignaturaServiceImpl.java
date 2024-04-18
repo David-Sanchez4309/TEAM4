@@ -33,7 +33,7 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
 
     @Override
     public Asignatura findById(Long id) {
-        return null;
+        return asignaturaDao.findById(id).orElse(null);
     }
 
     @Override

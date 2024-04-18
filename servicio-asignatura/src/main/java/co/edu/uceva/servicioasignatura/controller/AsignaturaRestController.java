@@ -34,11 +34,14 @@ public class AsignaturaRestController {
 
     // Funcion borrar
 
+    @GetMapping("/asignaturasBuscar/{id}")
+    public Asignatura buscarAsignatura(@PathVariable Long id) {
+        return this.asignaturaService.findById(id);
+    }
+
     @DeleteMapping("/asignaturasBorrar")
     public Asignatura borrarAsignatura(@RequestBody Asignatura asignatura) {
         return this.asignaturaService.delete(asignatura);
     }
-
-
 
 }

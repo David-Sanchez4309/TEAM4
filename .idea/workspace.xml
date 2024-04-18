@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abbbe890-4615-42df-8631-5426c18c7eaf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/controller/AsignaturaRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/controller/AsignaturaRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/dao/IAsignaturaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/dao/IAsignaturaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/AsignaturaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/AsignaturaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/IAsignaturaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/IAsignaturaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "MariaRamirez",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "43efc68b9bfeb98f2877e7ea70aebc0b"

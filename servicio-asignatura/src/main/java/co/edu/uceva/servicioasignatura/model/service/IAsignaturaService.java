@@ -10,5 +10,6 @@ public interface IAsignaturaService {
     List<Asignatura> findAll();
     Asignatura save(Asignatura asignatura);
     Asignatura findById(Long id);
+    Asignatura findByOvaId(String ovaId);
     Asignatura update(Asignatura asignatura);
 }

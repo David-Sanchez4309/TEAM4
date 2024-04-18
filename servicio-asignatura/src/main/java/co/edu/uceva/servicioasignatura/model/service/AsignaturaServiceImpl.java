@@ -37,6 +37,11 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
     }
 
     @Override
+    public Asignatura findByOvaId(String ovaId) {
+        return asignaturaDao.findByOvaId(ovaId);
+    }
+
+    @Override
     public Asignatura update(Asignatura asignatura) {
         return asignaturaDao.save(asignatura);
     }

@@ -55,4 +55,22 @@ public class AsignaturaRestControllerTests {
 
         verify(asignaturaService).findAll();
     }
+
+
+    @Test
+    public void buscarAsignatura_returnsAsignacturaId() throws  Exception{
+        Asignatura asignatura = new Asignatura();
+        asignatura.setNombre("Ing software");
+        asignatura.setDescripcion("metodos de diagramas");
+        asignatura.setOva_id("250");
+
+        when(asignaturaService.findById(1L)).thenReturn(asignatura);
+
+        mockMvc.perform(get("/api/asignatura-service/asignaturasBuscar/{id}",1L))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.nombre", is("Ing software")))
+                .andExpect(jsonPath("$.descripcion", is("metodos de diagramas")))
+                .andExpect(jsonPath("$.ova_id", is("250")));
+        verify(asignaturaService).findById(1L);
+    }
 }

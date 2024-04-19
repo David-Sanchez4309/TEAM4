@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abbbe890-4615-42df-8631-5426c18c7eaf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicio-asignatura/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/controller/AsignaturaRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/controller/AsignaturaRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/dao/IAsignaturaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/dao/IAsignaturaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/AsignaturaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/AsignaturaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/IAsignaturaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/IAsignaturaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/test/java/co/edu/uceva/servicioasignatura/controller/unit/AsignaturaRestControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/test/java/co/edu/uceva/servicioasignatura/controller/unit/AsignaturaRestControllerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +47,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Gonzalo",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "43efc68b9bfeb98f2877e7ea70aebc0b"
+    "git-widget-placeholder": "Merging Gonzalo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.ServicioAsignaturaApplication">
+  <component name="RunManager" selected="Database Script.import.sql">
+    <configuration name="import.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/servicio-asignatura/src/main/resources/import.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="TEAM4-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/TEAM4-endpoints.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="AsignaturaRestControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="servicio-asignatura" />
       <extension name="coverage">
@@ -76,8 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Database Script.import.sql" />
+      <item itemvalue="HTTP Request.TEAM4-endpoints | #1" />
+      <item itemvalue="JUnit.AsignaturaRestControllerTests" />
+      <item itemvalue="Spring Boot.ServicioAsignaturaApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.import.sql" />
         <item itemvalue="JUnit.AsignaturaRestControllerTests" />
       </list>
     </recent_temporary>

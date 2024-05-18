@@ -24,8 +24,12 @@ public class AsignaturaRestController {
         return this.asignaturaService.findAll();
     }
 
+    @PostMapping("asignatura")
+    public Asignatura CrearAsignatura(@RequestBody Asignatura asignatura){
+        return this.asignaturaService.save(asignatura);
+    }
 
-    
+
     //funcion actualizar hecha por camilo mena
     @PutMapping("/asignaturasActualizar")
     public Asignatura actualizarAsignatura(@RequestBody Asignatura asignatura) {

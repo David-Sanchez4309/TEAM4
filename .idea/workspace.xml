@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abbbe890-4615-42df-8631-5426c18c7eaf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-asignatura/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/controller/AsignaturaRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/controller/AsignaturaRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/dao/IAsignaturaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/dao/IAsignaturaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/AsignaturaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/AsignaturaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/IAsignaturaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/model/service/IAsignaturaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/import.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/test/java/co/edu/uceva/servicioasignatura/controller/unit/AsignaturaRestControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/test/java/co/edu/uceva/servicioasignatura/controller/unit/AsignaturaRestControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2f9aZe5tdxuS6ZS7pdZ37cdiPbw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,14 +46,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "Merging Gonzalo",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/LE NOVO/test-git-playground/TEAM4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Database Script.import.sql">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="co.edu.uceva.servicioasignatura" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServicioAsignaturaApplication">
     <configuration name="import.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/servicio-asignatura/src/main/resources/import.sql" />
       <script-mode>FILE</script-mode>
@@ -111,6 +124,7 @@
       <workItem from="1713364054436" duration="863000" />
       <workItem from="1713371157790" duration="288000" />
       <workItem from="1713381881513" duration="505000" />
+      <workItem from="1715982418371" duration="3562000" />
     </task>
     <servers />
   </component>

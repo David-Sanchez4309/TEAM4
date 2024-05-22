@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abbbe890-4615-42df-8631-5426c18c7eaf" name="Changes" comment="(fix): fix mapping y metodos">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -55,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "fix-mapping",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "C:/Users/LE NOVO/test-git-playground/TEAM4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -110,6 +112,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AsignaturaRestControllerTests" />
+        <item itemvalue="HTTP Request.TEAM4-endpoints | #1" />
+        <item itemvalue="Database Script.import.sql" />
         <item itemvalue="Database Script.import.sql" />
         <item itemvalue="JUnit.AsignaturaRestControllerTests" />
       </list>

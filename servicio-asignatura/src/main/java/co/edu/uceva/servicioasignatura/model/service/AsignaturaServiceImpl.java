@@ -20,6 +20,7 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
 
     @Override
     public Asignatura delete(Asignatura asignatura) {
+         this.asignaturaDao.delete(asignatura);
         return asignatura;
     }
 
@@ -28,7 +29,7 @@ public class AsignaturaServiceImpl implements IAsignaturaService{
 
     @Override
     public Asignatura save(Asignatura asignatura) {
-        return null;
+        return asignaturaDao.save(asignatura);
     }
 
     @Override

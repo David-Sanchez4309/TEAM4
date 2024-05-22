@@ -24,7 +24,7 @@ public class AsignaturaRestController {
         return this.asignaturaService.findAll();
     }
 
-    @PostMapping("asignatura")
+    @PostMapping("/asignatura")
     public Asignatura CrearAsignatura(@RequestBody Asignatura asignatura){
         return this.asignaturaService.save(asignatura);
     }

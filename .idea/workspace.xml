@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbbe890-4615-42df-8631-5426c18c7eaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/CorsConfig.java" afterDir="false" />
+    <list default="true" id="abbbe890-4615-42df-8631-5426c18c7eaf" name="Changes" comment="(fix): fix mapping y metodos">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/controller/AsignaturaRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/java/co/edu/uceva/servicioasignatura/controller/AsignaturaRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-asignatura/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,9 +38,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2f9aZe5tdxuS6ZS7pdZ37cdiPbw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,12 +55,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "fix-mapping",
     "last_opened_file_path": "C:/Users/LE NOVO/test-git-playground/TEAM4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -125,7 +129,17 @@
       <workItem from="1713371157790" duration="288000" />
       <workItem from="1713381881513" duration="505000" />
       <workItem from="1715982418371" duration="3562000" />
+      <workItem from="1716308923319" duration="6098000" />
     </task>
+    <task id="LOCAL-00001" summary="(fix): fix mapping y metodos">
+      <option name="closed" value="true" />
+      <created>1716353254834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716353254834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +157,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="(fix): fix mapping y metodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="(fix): fix mapping y metodos" />
   </component>
 </project>
